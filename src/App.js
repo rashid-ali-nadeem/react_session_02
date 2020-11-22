@@ -8,12 +8,13 @@ function App() {
       
       <Hello name="Rashid"/>
       <hr/>
+      <header className="App-header">
       <Dinner dishName = "Chiken Biryani" sweet="Kheer"/>
       <hr/>
       <Dinner dishName = "Karahi" sweet="Halwa"/>
       <hr/>
       <Dinner dishName = "Nihari" sweet="Jaleebi"/>
-      
+      </header>
     </div>
   );
 }
