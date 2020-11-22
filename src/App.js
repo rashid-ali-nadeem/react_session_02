@@ -1,11 +1,12 @@
 import './App.css';
 import Dinner from './Dinner';
+import Hello from './Hello';
 
 function App() {
   return (
     <div className="App">
       
-      <h1>Hello Everyone</h1>
+      <Hello/>
       <hr/>
       <Dinner dishName = "Chiken Biryani" sweet="Kheer"/>
       <hr/>
